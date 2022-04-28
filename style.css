@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url('estilo/fontes/idroid.otf') format('opentype');
+    src: url('fontes/idroid.otf') format('opentype');
 }
 
 
@@ -44,7 +44,7 @@ body{
 }
 
 .externo::after{
-    content: '00A0\1F517';
+    content: '\00A0\1F517';
 }
 
 header {
